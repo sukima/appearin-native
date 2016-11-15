@@ -6,7 +6,7 @@
   "scripts": {
     "build-image": "build-image",
     "build-icons": "mkdir -p build && build-icons",
-    "build-app": "mkdir -p build && nativefier -n 'Appear.in' -i 'build/Logo.icns' 'https://appear.in/' build/",
+    "build-app": "mkdir -p build && nativefier -f -n 'Appear.in' -i 'build/Logo.icns' 'https://appear.in/' build/",
     "start": "npm run build-icons && npm run build-app",
     "deploy": "npm run clean && npm run start && npm run build-image",
     "clean": "rm -rf build"
