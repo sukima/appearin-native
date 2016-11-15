@@ -1,6 +1,7 @@
 {
   "name": "appearin-native",
   "version": "1.0.0",
+  "private": true,
   "description": "Build Appear.in as a native app",
   "scripts": {
     "build-image": "build-image",
